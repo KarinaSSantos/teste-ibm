@@ -1,5 +1,5 @@
 const express = require('express')
-const app = express()
+const app = express.createServer();
 const port = 3000
 const ClientOAuth2 = require('client-oauth2')
 
@@ -15,8 +15,8 @@ const googleAuth = new ClientOAuth2({
 const twitterAuth = new ClientOAuth2({
   clientId: 'abc',
   clientSecret: '123',
-  accessTokenUri: 'https://github.com/login/oauth/access_token',
-  authorizationUri: 'https://github.com/login/oauth/authorize',
+  accessTokenUri: 'https://twitter.com/oauth/access_token',
+  authorizationUri: 'https://twitter.com/oauth/request_token',
   redirectUri: 'http://example.com/auth/twitter/callback',
   scopes: ['notifications', 'gist']
 })

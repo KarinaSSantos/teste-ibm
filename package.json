@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/KarinaSSantos/teste-ibm/issues"
   },
-  "homepage": "https://github.com/KarinaSSantos/teste-ibm#readme"
+  "homepage": "https://github.com/KarinaSSantos/teste-ibm#readme",
+  "dependencies": {
+    "@carbon/icons-vue": "^10.24.0",
+    "@carbon/vue": "^2.37.0",
+    "carbon-components": "^10.27.0"
+  }
 }

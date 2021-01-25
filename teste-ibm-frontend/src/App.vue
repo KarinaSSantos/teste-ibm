@@ -1,38 +1,44 @@
-
 <template>
-  <div id="app">
-    <img alt="Kitty logo" src="./assets/img/kitty.png" />
-   
+  <div class="sample">
+    <template slot="app"></template>
 
-    <!-- <router-link to="/login">Go to Login Teste</router-link> -->
-    <router-view></router-view>
+ 
+    <router-view />
   </div>
 </template>
 
+// <script>
+//   export default {
+//     name: 'HelloWorld',
+//     data() {
+//       return {
+//         yourName: '',
+//         visible: false,
+//       };
+//     },
+//     methods: {
+//       onClick() {
+//         this.visible = true;
+//       },
+//       modalClosed() {
+//         this.visible = false;
+//       },
+//     },
+   
+//   };
+// </script>
 
+<style>
+  .sample {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 5% auto;
+  }
 
-<script>
-// import HelloWorld from "./components/HelloWorld.vue";
-// import { CvButton } from "@carbon/vue";
-// import TutorialHeader from "./components/TutorialHeader";
-
-export default {
-  name: "App",
-  components: {
-    // HelloWorld
-  },
-};
-</script>
-
-<style lang="scss">
-// @import "./assets/styles/carbon";
-
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  .cv-text-input {
+    margin: 30px 0;
+  }
 </style>
