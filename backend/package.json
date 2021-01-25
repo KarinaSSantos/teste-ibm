@@ -1,0 +1,15 @@
+{
+  "name": "teste-ibm-backend",
+  "version": "1.0.0",
+  "description": "Aplicacao backend do teste da ibm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "client-oauth2": "^4.3.3",
+    "express": "^4.17.1"
+  }
+}
