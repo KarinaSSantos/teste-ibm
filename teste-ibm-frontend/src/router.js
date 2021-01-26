@@ -17,7 +17,7 @@ export default new Router({
     },
     {
       path: '/login',
-      
+      //trocar os nomes para os nomes certos
       name: 'Login',
       component: Login,
     },

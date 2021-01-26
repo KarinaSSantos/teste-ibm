@@ -2,10 +2,17 @@
   <div class="sample">
     <template slot="app"></template>
 
- 
+  <router-link to="/login">
+       Ir pro login
+    </router-link> 
+
     <router-view />
   </div>
 </template>
+
+<style>
+  @import './assets/styles/styles.scss';
+</style>
 
 // <script>
 //   export default {
