@@ -2,9 +2,10 @@
 
 .Button{
     &.Primary{
-
+        background: #000;
+        height: 100px;
         &.Solid{
-            color: $primary_color;
+         
         }
         &.Outline{
 

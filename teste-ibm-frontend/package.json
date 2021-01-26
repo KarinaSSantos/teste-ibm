@@ -5,13 +5,17 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "webpack-defaults": "webpack-defaults"
   },
   "dependencies": {
     "@carbon/icons-vue": "^10.23.0",
     "@carbon/vue": "^2.37.0",
     "carbon-components": "^10.26.0",
+    "cli-service": "0.0.2",
     "core-js": "^3.6.5",
+    "css-loader": "^5.0.1",
+    "node-sass": "^5.0.0",
     "vue": "^2.6.11",
     "vue-router": "^3.4.9"
   },
@@ -24,6 +28,9 @@
     "eslint-plugin-vue": "^6.2.2",
     "sass": "^1.32.5",
     "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^4.3.3",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {

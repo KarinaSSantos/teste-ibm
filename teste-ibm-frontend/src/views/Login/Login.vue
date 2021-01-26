@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="Ibm_RSV_Page">
     <div>Login Page</div>
     <div class="Page Page-Login">
       <div class="Container">
